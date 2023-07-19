@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+    width: 1440px;
+    height: 4480px;
+}
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin: 20px;
+    background-color: #9073E7;
+    color: black;
+    font-family: "nunito", "Arial";
+    font-style: bold;
+    font-size: 42px;
+    border-radius: 20px;
+}
+
+#top-title{
+    display: flex;
+    width: 1221px;
+    height: 102px;
+    justify-content: center;
+    text-align: center;
+    color:white ;
+    font-family: "Lily Script One", "Arial";
+    font-size: 60px;
+}
+
+.about{
+    display: inline-block;
+    padding: 15px;
+    
+    
+}
+   
+ #mypic{
+    float: left;
+    border-color: #9073E7;
+    border-width: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 379px;
+    padding: 15px;
+    
+
+ }
+ #intro{
+    background-color: #9073E7;
+    color: white;
+    text-align: center;
+    font-family: "Nunito", "Arial";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    height: 379px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 40px;
+
+ }
+
+
+.sub-titles{
+    display: flex;
+    width: 345px;
+    height: 84px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lexend Zetta", "Arial";
+    font-size: 50px;
+    background-color: #FFDFFF ;
+    border-radius: 40px;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skill-icon{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+
+
+}
+
+#skill-one{
+    width: 138px;
+    height: 138px;
+    border-radius: 138px;
+    background-color: black;
+    color: white;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-bottom: 90px;
+}
+
+
+#skill-two{
+    width: 138px;
+    height: 138px;
+    border-radius: 138px;
+    background-color: black;
+    color: white;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-top: 30px;
+    margin-inline: 60px;
+    margin-bottom: 90px;
+
+}
+
+#skill-three{
+    width: 138px;
+    height: 138px;
+    border-radius: 138px;
+    background-color: black;
+    color: white;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-top: 30px;
+    margin-inline: 70px;
+    margin-bottom: 90px;
+
+}
+
+#skill-four{
+    width: 138px;
+    height: 138px;
+    border-radius: 138px;
+    background-color: black;
+    color: white;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-top: 30px;
+    margin-inline: 70px;
+    margin-bottom: 90px;
+}
+
+.projects{
+    display:flex ;
+    flex-direction: row;
+
+}
+
+#slam-button{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-inline: 70px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.coming-soon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: #af2efa;
+    border-radius: 40px;
+    color: white;
+    font-family: "Lexend Zetta", "Arial";
+    font-size: 42px;
+    text-align: center;
+    margin-inline: 70px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 910px;
+    height: 126px;
+    padding: 33px 28px;
+    border-radius: 40px;
+}
+
+#type{
+    display: flex;
+    flex-direction: row;
+    width: 1176px;
+    height: 341px;
+    padding: 33px 28px 255px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+.text-input{
+    display: flex;
+    flex-direction: row;
+    width: 910px;
+    height: 126px;
+    padding: 33px 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+button{
+    display: flex;
+    width: 250px;
+    height: 94px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9073E7;
+    border-radius: 40px;
+    text-align: center;
+    font-family: "Nunito", "Arial";
+    font-size: 42px;
+    font-style: normal;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 327px;   
+    background-color: #af2efa;
+    border-radius: 20px;
+    font-family: "Nunito","Arial";
+    font-size: 32px;
+    margin: 30px;
+    margin-top: 800px;
+}
+
+.contact-info{
+    padding: 15px;
+    margin-inline: auto;
+
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: -6px;
+
+    
+}
+#navigation{
+    font-family: "Nunito", "Arial";
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#footer-img{
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+}
+

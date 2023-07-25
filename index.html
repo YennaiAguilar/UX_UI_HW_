@@ -5,32 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natty Aguilar UI/UX design </title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
+    </head>
 <body>
     <header>
-      <nav>
+      <nav id="tabs">
         <ul>
             <li class="inline-block">Home</li>
             <li class="inline-block">About Me</li>
-            <li class="inline-block">Projects <img src="./images/icon _chevron down_.svg"></li>
+        <div class="dropdown">
+            <li class="inline-block" class="projects">Projects <img id="arrow-down" onclick= "myfunction" src="./images/icon _chevron down_.svg"></li>
+            <div id="mydropdown" class="dropdown-content">
+            <button  class="menu">SLAM </button>
+            <button  class="menu"> Coming Soon </button>
+            <button class="menu"> Coming Soon </button>
+            </div>
+        </div>
             <li class="inline-block">Skills</li>
             <li class="inline-block">Contacts</li>
        </ul>
+
+      
+
       </nav>
     </header>
 
-    <section>
+    <section Class="about">
      <h1 id="top-title">Yennai "Natty" Aguilar</h1>
-     <div class="about">
+     <div class="about" >
         <img id="mypic" src="./images/IMG_5599.JPG">
-       <div class="about">
-            <p id="intro">I am thrilled to introduce myself as a versatile UI/UX designer <br> with a diverse background in modern languages, business,<br> customer service, and a passion for  various creative pursuits <br>. My goal is to combine my multidisciplinary skills <br>to craft immersive and impactful digital experiences.</p>
+       <div class="about" >
+            <p id="intro">I am thrilled to introduce myself as a versatile UI/UX  designer  with a diverse background in modern languages, business,  customer service, and a passion for  various creative pursuits . My goal is to combine my multidisciplinary skills to craft immersive and impactful digital experiences.</p>
         </div>
      </div>
     </section>
     
     <section class="skills">
-        <h2 class="sub-titles">Skills test</h2>
+        <h2 class="sub-titles">Skills </h2>
         <div class="skill-icon">
             <div id="skill-one">
                 <img src="./images/1.svg">
@@ -102,6 +112,10 @@
         </div>
 
         <img id="footer-img" src="./images/Rectangle 1.png" alt="">
+
     </footer>
 </body>
+
+<script src="./js/jquery-3.7.0.js "> </script>
+<script src="./js/index.js"> </script>
 </html>

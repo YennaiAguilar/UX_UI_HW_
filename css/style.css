@@ -1,13 +1,19 @@
+
+    
+
 body{
     background-color: black;
-    width: 1440px;
-    height: 4480px;
+    width: 1260px;
+    height: 3790px;
+    margin:auto;
+    padding: auto;
+    
 }
 
 .inline-block{
     display: inline-block;
     vertical-align: top;
-    padding: 15px;
+    padding: 25px;
     margin: 20px;
     background-color: #9073E7;
     color: black;
@@ -16,6 +22,41 @@ body{
     font-size: 42px;
     border-radius: 20px;
 }
+
+.inline-block:active {
+    background-color: #F5C1B3;
+
+}
+
+.menu{
+    display: flex;
+    width: 260px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 32px;
+    border-radius: 20px;
+    font-family: "nunito", "Arial";
+}
+
+.menu:hover{ 
+background-color: #CEE6CE;
+}
+
+.dropdown{
+
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+}
+
+.show {
+    display: block;
+  }
 
 #top-title{
     display: flex;
@@ -43,7 +84,7 @@ body{
     width: 300px;
     height: 379px;
     padding: 15px;
-    
+    display: none;
 
  }
  #intro{
@@ -55,10 +96,10 @@ body{
     flex-direction: column;
     justify-content: center;
     font-size: 32px;
-    height: 379px;
-    margin: 5px;
-    padding: 5px;
+    height: 319px;
+    width: 820px;
     border-radius: 40px;
+    display: none;
 
  }
 
@@ -77,6 +118,7 @@ body{
     margin-left: 400px;
     margin-top: 100px;
     margin-bottom: 100px;
+    
 }
 
 .skill-icon{
@@ -99,6 +141,7 @@ body{
     margin-top: 30px;
     margin-right: 70px;
     margin-bottom: 90px;
+    margin-left: 50px;
 }
 
 
@@ -112,7 +155,7 @@ body{
     font-size: 42px;
     text-align: center;
     margin-top: 30px;
-    margin-inline: 60px;
+    margin-inline: 100px;
     margin-bottom: 90px;
 
 }
@@ -127,7 +170,7 @@ body{
     font-size: 42px;
     text-align: center;
     margin-top: 30px;
-    margin-inline: 70px;
+    margin-inline: 100px;
     margin-bottom: 90px;
 
 }
@@ -142,8 +185,9 @@ body{
     font-size: 42px;
     text-align: center;
     margin-top: 30px;
-    margin-inline: 70px;
+    margin-inline: 100px;
     margin-bottom: 90px;
+    
 }
 
 .projects{
@@ -165,22 +209,32 @@ body{
     margin-bottom: 90px;
 }
 
+#slam-button:hover{
+    border-color: #9073E7;
+    border-width: 10px;
+}
 .coming-soon{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
-    height: 400px;
+    width: 1000px;
+    height: 300px;
     background-color: #af2efa;
     border-radius: 40px;
     color: white;
     font-family: "Lexend Zetta", "Arial";
     font-size: 42px;
     text-align: center;
-    margin-inline: 70px;
+    margin-inline: 30px;
     margin-top: 30px;
     margin-bottom: 90px;
     
+}
+
+.coming-soon:hover{
+    border-color: #9073E7;
+    border-width: 10px;
+
 }
 
 .contact-form{
@@ -192,12 +246,13 @@ body{
     border-radius: 40px;
 }
 
+
 #type{
     display: flex;
     flex-direction: row;
-    width: 1176px;
-    height: 341px;
-    padding: 33px 28px 255px 28px;
+    width: 910px;
+    height: 100px;
+    padding: 33px 28px 150px 28px;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -208,7 +263,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 910px;
-    height: 126px;
+    height: 100px;
     padding: 33px 28px;
     justify-content: center;
     align-items: center;
@@ -228,19 +283,21 @@ button{
     font-family: "Nunito", "Arial";
     font-size: 42px;
     font-style: normal;
+    margin: 30px;
 }
 
 #footer{
     display: flex;
     flex-direction: row;
-    width: 1440px;
+    width: 1260px;
     height: 327px;   
     background-color: #af2efa;
     border-radius: 20px;
     font-family: "Nunito","Arial";
     font-size: 32px;
-    margin: 30px;
+    margin: 0px;
     margin-top: 800px;
+   
 }
 
 .contact-info{

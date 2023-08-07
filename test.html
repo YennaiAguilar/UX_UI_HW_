@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Responsive Navigation Bar</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+
+    body {
+      background-color: black;
+    }
+
+    .btn-custom {
+      background-color: transparent;
+      border: none;
+     
+    }
+
+
+    .navbar {
+      border: 20px solid #9073E7;
+      background-color: #9073E7;
+      text-align: center;
+      flex-direction: row;
+      width: 100%;
+      
+    }
+
+    .navbar a {
+      color: black;
+      font-size: 42px;
+      font-family: "Nunito", "Arial", sans-serif;
+    }
+
+    .navbar .dropdown-menu a {
+      font-size: 42px;
+      font-family: "Nunito", "Arial", sans-serif;
+    }
+
+    .navbar-nav {
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .image-grid img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .intro-slam {
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    .sub-titles {
+      display: flex;
+      width: 345px;
+      height: 84px;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      font-family: "Lexend Zetta", "Arial";
+      font-size: 50px;
+      background-color: #FFDFFF;
+      border-radius: 40px;
+      margin: auto; /* Center horizontally and vertically */
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .team-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 35px;
+    }
+
+    .team-image p {
+      color: white;
+      font-family: "Nunito", "Arial";
+      font-size: 24px;
+      background-color: #9073E7;
+      border-radius: 40px;
+      width: 215px;
+    }
+
+    .tools {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 35px;
+    }
+
+    .tools p {
+      color: white;
+      font-family: "Nunito", "Arial";
+      font-size: 24px;
+      background-color: #9073E7;
+      border-radius: 40px;
+      width: 215px;
+    }
+
+    .case-button {
+    margin: 20px;
+    
+    }
+
+    #footer{
+    display: flex;
+    flex-direction: row;
+    height: 327px;   
+    background-color: #af2efa;
+    border-radius: 20px;
+    font-family: "Nunito","Arial";
+    font-size: 32px;
+   
+}
+
+.contact-info{
+    padding: 15px;
+    margin-inline: auto;
+
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: -6px;
+    text-align: center;
+  }
+
+  #navigation{
+    font-family: "Nunito", "Arial";
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer-img{
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    animation-name: test;
+    animation-duration: 20s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <ul class="navbar-nav">
+      <!-- 1st Navigation Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+
+      <!-- 2nd Navigation Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">About me</a>
+      </li>
+
+      <!-- 3rd Navigation Button with Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Projects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">SLAM</a>
+          <a class="dropdown-item" href="#">Coming Soon</a>
+          <a class="dropdown-item" href="#">Coming Soon</a>
+        </div>
+      </li>
+
+      <!-- 4th Navigation Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+
+      <!-- 5th Navigation Button -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <section Class="intro-slam">
+          <div class="intro-slam image-grid">
+            <img id="slam-pic" class="img-fluid" src="./images/Slam case study image.svg">
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">      
+    <h2 class="sub-titles">The team </h2>
+  </div>
+
+ <div class="container-fluid">
+   <div class="container px-4">
+      <div class="row gx-5">
+
+             <div class="col">
+               <div class="team-image">
+                 
+                   <img class= "team" src="./images/the team -Yennai Aguilar.svg">
+                    
+                   <p>Yennai Aguilar</p>
+                    
+                  
+               </div>
+             </div>
+             
+             <div class="col">
+               <div class="team-image">
+                 
+                   <img class= "team" src="./images/Team member 2.svg">
+                    <p>Ana Pinto</p>       
+               </div>
+             </div>
+             
+             
+             <div class="col">
+                   <div class="team-image">
+                     
+                       <img class= "team" src="./images/Team member 3.svg">
+                        <p>Craig Biesinger</p>     
+                     
+                   </div>  
+             </div>
+              
+              
+               <div class="col">
+                 <div class="team-image">
+                    
+                      <img class= "team" src="./images/Team member 14.png">
+                       <p>Bradyn Heaton</p> 
+                          
+                 </div>
+               </div>
+      </div>   
+   </div>
+ </div>
+      
+ <div class="container-fluid">
+   <h2 class="sub-titles">Tools </h2>
+ </div>
+   
+ <div class="container-fluid">
+   <div class="container px-4">
+      <div class="row gx-5">
+
+        <div class="col">
+         <div class="tools">
+           <img class= "tools-img" src="./images/🦆 icon _figma_.svg">
+           <p>Figma</p>
+         </div>
+       </div>
+
+        <div class="col">
+          <div class="tools">
+              <img class= "tools-img" src="./images/🦆 icon _Google Drive_.svg">
+              <p>Google Drive</p>     
+          </div>
+       </div>
+
+         <div class="col">
+           <div class="tools">
+                <img class= "tools-img" src="./images/🦆 icon _Apps Google Sheets_.svg">
+                <p>Google Sheetsr</p>     
+           </div> 
+         </div>
+
+         <div class="col">
+           <div class="tools">
+              <img class= "tools-img" src="./images/🦆 icon _google docs_.svg">
+              <p>Google Docs</p>     
+           </div>
+         </div>
+
+           <div class="col">
+              <div class="tools">
+                <img class= "tools-img" src="./images/🦆 icon _canva_.svg">
+                <p>Canva</p>     
+              </div>
+           </div>     
+     </div>
+   </div>
+ </div>
+
+ <div class="container-fluid">
+  <h2 class="sub-titles">Case Study </h2>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row gy-5">
+      <div class="col-md-6">
+        <div class="btn-container">
+          <div class="case-button">
+            <button class="btn btn-custom" role="button" data-bs-toggle="button">
+              <img src="./images/What is slam.svg" alt="What is SLAM?">
+            </button>
+          </div>
+          <div class="case-button">
+            <button class="btn btn-custom" role="button" data-bs-toggle="button">
+              <img src="./images/Research slam.svg" alt="Research">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="btn-container">
+          <div class="case-button">
+            <button class="btn btn-custom" role="button" data-bs-toggle="button">
+              <img src="./images/Definitian and ideation slam.svg" alt="Definition and Ideation">
+            </button>
+          </div>
+          <div class="case-button">
+            <button class="btn btn-custom" role="button" data-bs-toggle="button">
+              <img src="./images/protyping button.svg" alt="Prototyping">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <footer id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+      <ul class="contact-info">
+        <li><img src="./images/Vector.svg" alt="">(786) 484-4218</li>
+        <li><img src="./images/email icon.svg" alt="">yennathi21@gmail.com</li>
+        <li><img src="./images/Group.svg" alt="">Facebook name</li>
+        <li><img src="./images/Instagram logo.svg" alt="">Instagram name</li>
+      </ul>
+      </div>
+         <div class="col">
+            <h3 id="navigation" >Navigation</h3>
+              <ul class="footer-nav">
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Projects</li>
+                <li>Skills</li>
+                <li>Contacts</li>
+             </ul>
+         </div>
+   </div>
+ </div>
+     
+   <img id="footer-img" src="./images/Rectangle 1.png" alt="">
+
+  </footer>
+           
+
+  <!-- Add Bootstrap JS and JQuery links here -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+
+</html>
+

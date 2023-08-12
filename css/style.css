@@ -36,6 +36,7 @@ body{
     font-size: 32px;
     border-radius: 20px;
     font-family: "nunito", "Arial";
+    color:white
 }
 
 .menu:hover{ 
@@ -275,7 +276,7 @@ background-color: #CEE6CE;
     margin: 30px;
 }
 
-button{
+.menu-btn{
     display: flex;
     width: 250px;
     height: 94px;
